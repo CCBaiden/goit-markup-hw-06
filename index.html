@@ -19,92 +19,119 @@
     />
   </head>
   <body>
+    <!-- Header Container -->
     <header class="header-root-container">
       <div class="header-main-cont container">
         <!--Header Logo -->
         <a class="header-logo-first-part" href="./index.html"
           >Web<span class="header-logo-second-part">Studio</span>
         </a>
-        <!-- Header Navigation -->
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-list-item">
-              <a class="header-nav-list-item-link current" href="./index.html"
-                >Studio</a
-              >
+
+        <div class="menu" data-menu>
+          <!-- Burger menue -->
+          <button
+            class="menu-close-btn"
+            type="button"
+            aria-label="Close button"
+            data-close-menu
+          >
+            <svg
+              class="menu-close-btn-icon"
+              width="24"
+              height="24"
+              aria-label="Menu close button"
+            >
+              <use
+                class="icon-close"
+                href="./images/icons.svg#icon-close-black"
+              ></use>
+            </svg>
+          </button>
+          <!-- Header Navigation -->
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-list-item">
+                <a class="header-nav-list-item-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-nav-list-item">
+                <a class="header-nav-list-item-link" href="">Portfolio</a>
+              </li>
+              <li class="header-nav-list-item">
+                <a class="header-nav-list-item-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Header Contacts Info -->
+          <address class="header-contacts-wrapper">
+            <ul class="header-contacts-list">
+              <li class="header-contacts-list-item">
+                <a
+                  class="header-contacts-list-item-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-contacts-list-item">
+                <a
+                  class="header-contacts-list-item-link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <!-- Social Media Link -->
+          <ul class="social-container">
+            <li class="social-item">
+              <a class="social-link" href="" title="instagram">
+                <svg class="social-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="header-nav-list-item">
-              <a class="header-nav-list-item-link" href="">Portfolio</a>
+            <li class="social-item">
+              <a class="social-link" href="" title="twitter">
+                <svg class="social-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter-2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="header-nav-list-item">
-              <a class="header-nav-list-item-link" href="">Contacts</a>
+            <li class="social-item">
+              <a class="social-link" href="" title="faceboock">
+                <svg class="social-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="" title="linkedin">
+                <svg class="social-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-2"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </nav>
-        <!-- Header Contacts Info -->
-        <address class="header-contacts-wrapper">
-          <ul class="header-contacts-list">
-            <li class="header-contacts-list-item">
-              <a
-                class="header-contacts-list-item-link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-contacts-list-item">
-              <a class="header-contacts-list-item-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        </div>
+        <!-- Burger menue -->
+        <button class="menu-open-btn" type="button" data-open-menu>
+          <svg
+            class="menu-open-btn-icon"
+            width="24"
+            height="24"
+            aria-label="Burger menu open button"
+          >
+            <use
+              class="icon-menue"
+              href="./images/icons.svg#icon-heroicons-solid-menu"
+            ></use>
+          </svg>
+        </button>
       </div>
-      <!-- Social Media Link -->
-      <ul class="social-container">
-        <li class="social-item">
-          <a class="social-link" href="" title="instagram">
-            <svg class="social-link-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-instagram-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-link" href="" title="twitter">
-            <svg class="social-link-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-twitter-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-link" href="" title="faceboock">
-            <svg class="social-link-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-facebook-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-link" href="" title="linkedin">
-            <svg class="social-link-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-linkedin-2"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
     </header>
-    <!-- Burger menue -->
-    <button class="menu-open-btn" type="button" data-open-menu>
-      <svg
-        class="menu-open-btn-icon"
-        width="24"
-        height="24"
-        aria-label="Burger menu open button"
-      >
-        <use
-          class="icon-menue"
-          href="./images/icons.svg#icon-heroicons-solid-menu"
-        ></use>
-      </svg>
-    </button>
     <main>
       <section class="section-one">
         <div class="container">
