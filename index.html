@@ -541,8 +541,9 @@
     </main>
 
     <footer class="footer-container">
-      <div class="footer-logo-content-wrapper container">
+      <div class="container">
         <div class="footer-logo-container">
+            <div class="footer-logo-container flex-element">
           <a class="footer-logo-first-part" href="./index.html"
             >Web<span class="footer-logo-second-part">Studio</span>
           </a>
@@ -553,11 +554,11 @@
         </div>
 
         <!-- Social Media -->
-        <div class="footer-social-media-wrapper">
+        <div class="footer-social-wrapper flex-element">
           <p class="footer-social-media-text">Social media</p>
 
           <ul class="footer-social-container">
-            <li class="footer-social-container-item">
+            <li class="footer-social-item">
               <a class="footer-social-link" href="#" title="instagram">
                 <svg class="footer-social-link-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
@@ -587,7 +588,26 @@
             </li>
           </ul>
         </div>
-      </div>
-    </footer>
-  </body>
-</html>
+              <!-- Subscribe -->
+          <div class="footer-subs">
+            <p class="footer-subs-text">Subscribe</p>
+            <form class="form-cont" action="/index.html">
+              <label class="footer-subs-label" for="foo-subs-email">
+                <input
+                  id="foo-subs-email"
+                  class="footer-subs-inp"
+                  name="foo-subs-email"
+                  type="email"
+                  placeholder="E-mail"
+              /></label>
+
+              <button class="footer-subs-btn" type="submit">
+                Subscribe
+                <svg class="footer-subs-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </footer>
