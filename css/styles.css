@@ -434,19 +434,15 @@ max-width: 320px;
   background-size: cover;
 }
 
-.section-one .container {
-  max-width: 1440px;
-}
-
 .hero-heading {
+  font-size: 36px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
-  text-align: center;
-  color: #ffffff;
-  max-width: 496px;
-  margin: 0 auto;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin: 0 auto 72px;
+  max-width: 55%;
+  color: var(--WHITE);
 }
 
 .hero-button {
