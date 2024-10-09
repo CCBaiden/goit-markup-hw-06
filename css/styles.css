@@ -377,6 +377,21 @@ is-open {
   transform-origin: left;
 }
 
+ .header-contacts-wrapper {
+    margin-bottom: 0;
+  }
+
+  .header-contacts-list-item + .header-contacts-list-item {
+    margin-top: 12px;
+  }
+
+  .header-contacts-list-item-link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+  }
+
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
