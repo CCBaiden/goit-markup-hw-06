@@ -118,37 +118,27 @@ is-open {
 }
 
 .header-root-container {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid var(--CORNFLOWER);
+  background: var(--WHITE);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-main-cont {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  column-gap: 40px;
-  background-color: #fff;
-}
-
-/* Nav container */
-.header-nav-container {
-  display: flex;
   align-items: center;
-  /* column-gap: 76px; */
 }
-
-/* Headerr logo design */
 .header-logo-first-part {
-  color: #4d5ae5;
+  color: var(--IRIS);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
-  padding-block: 25.5px;
-  margin-right: 76px;
 }
 
 .header-logo-second-part {
@@ -159,6 +149,58 @@ is-open {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.menu.is-open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--WHITE);
+  padding: 16px 16px 40px 16px;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-open-btn {
+  padding-block: 16px;
+}
+
+.menu-open-btn,
+.menu-close-btn {
+  background-color: inherit;
+  border: none;
+}
+
+.menu-close-btn {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-close-btn-icon {
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--CLOUD);
+  fill: var(--NAVY_BLUE);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-close-btn-icon:hover,
+.menu-close-btn-icon:focus {
+  fill: var(--WHITE);
+  background-color: var(--OCEAN);
 }
 
 /* Menue list container */
