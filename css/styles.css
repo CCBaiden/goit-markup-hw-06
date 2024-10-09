@@ -93,6 +93,30 @@ is-open {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+.section {
+  padding: 96px 0;
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
+}
+
 .header-root-container {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
