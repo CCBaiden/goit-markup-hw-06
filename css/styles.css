@@ -1,15 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  background-color: var(--WHITE);
 }
 
-
 :root {
-  /* colors */
   --DARIY: #fcfcfc;
   --WHITE: #ffffff;
   --CLOUD: #f4f4fd;
@@ -22,11 +16,34 @@ body {
   --OCEAN: #404bbf;
   --IRIS: #4d5ae5;
   --GREEN: #31d0aa;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  width: 320px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 ul {
@@ -43,23 +60,37 @@ ul {
   padding-bottom: 120px;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+img,
+svg {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+  outline: none;
   font-style: normal;
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
+}
+
+is-open {
+  display: block;
 }
 
 .header-root-container {
@@ -331,7 +362,6 @@ address {
 .section-our-team .member img {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .team-heading {
   font-size: 36px;
