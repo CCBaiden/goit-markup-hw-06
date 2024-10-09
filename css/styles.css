@@ -7,6 +7,22 @@ body {
   box-sizing: border-box;
 }
 
+
+:root {
+  /* colors */
+  --DARIY: #fcfcfc;
+  --WHITE: #ffffff;
+  --CLOUD: #f4f4fd;
+  --CORNFLOWER: #e7e9fc;
+  --LIGHT-SLATE: #8e8f99;
+  --SLATE: #434455;
+  --GRAY: #2e2f42b2;
+  --NAVY_BLUE_MODAL: #2e2f4266;
+  --NAVY_BLUE: #2e2f42;
+  --OCEAN: #404bbf;
+  --IRIS: #4d5ae5;
+  --GREEN: #31d0aa;
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
