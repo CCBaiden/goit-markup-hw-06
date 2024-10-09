@@ -300,6 +300,16 @@ is-open {
     margin-right: 0;
   }
 
+  .header-main-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   .header-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
