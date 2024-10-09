@@ -284,6 +284,22 @@ is-open {
   fill: currentColor;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+
+  .menu-close-btn {
+    display: none;
+  }
+
+  .header-logo-first-part{
+  }
+
+  .header-logo-second-part {
+    margin-right: 0;
+  }
+
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
