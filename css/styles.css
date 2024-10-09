@@ -203,10 +203,13 @@ is-open {
   background-color: var(--OCEAN);
 }
 
-/* Menue list container */
-.header-nav-list {
-  display: flex;
-  gap: 40px;
+.header-nav {
+  margin-top: 24px;
+  margin-bottom: 168px;
+}
+
+.header-nav-list-item + .header-nav-list-item {
+  margin-top: 40px;
 }
 
 /* Menu list link */
