@@ -309,6 +309,11 @@ address {
   margin: -1px;
 }
 
+.block-center {
+  display: block;
+  text-align: center;
+}
+
 .section-two-cardset {
   display: flex;
   justify-content: space-between;
