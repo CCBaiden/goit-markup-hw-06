@@ -208,6 +208,9 @@ is-open {
   margin-bottom: 168px;
 }
 
+.header-nav-list {
+}
+
 .header-nav-list-item + .header-nav-list-item {
   margin-top: 40px;
 }
@@ -230,6 +233,13 @@ is-open {
 
 .header-contacts-wrapper {
   margin-bottom: 48px;
+}
+
+.header-contacts-list {
+}
+
+.header-contacts-list-item + .header-contacts-list-item {
+  margin-top: 24px;
 }
 
 .section-one {
