@@ -573,16 +573,66 @@ is-open {
   letter-spacing: 0.02em;
 }
 
-.icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-  padding: 20px 100px;
+@media (min-resolution: 192dpi) {
+  .box {
+    background-image: url('https://picsum.photos/id/237/640/480');
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .strategy-list-item + .strategy-list-item {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strategy-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .strategy-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .strategy-title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .strategy-list {
+  }
+
+  .strategy-list-item {
+    max-width: 264px;
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .strategy-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE);
+    background: var(--CLOUD);
+
+    padding: 24px 100px;
+    margin-bottom: 8px;
+  }
+
+  .strategy-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .strategy-text {
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
 }
 
 .section-our-team {
