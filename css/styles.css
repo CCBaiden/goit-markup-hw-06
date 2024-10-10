@@ -825,3 +825,20 @@ is-open {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+@media screen and (min-width: 768px) {
+  .our-portofilo-cardset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 24px;
+  }
+
+  .portfolio-case {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-case + .portfolio-case {
+    margin-top: 0;
+}
