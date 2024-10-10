@@ -418,18 +418,15 @@ is-open {
 }
 
 .section-one {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 72px 0;
-  text-align: center;
-  background-color: var(--GRAY);
+  background-color: #2e2f42;
+  padding: 188px 0;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/section-one/dark-bg.jpg");
-  background-repeat: no-repeat;
+    url(../images/people-office.jpg);
+  max-width: 1440px;
   background-position: center;
   background-size: cover;
 }
