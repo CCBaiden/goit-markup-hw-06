@@ -723,6 +723,29 @@ is-open {
   fill: currentColor;
 }
 
+@media screen and (min-width: 768px) {
+  .team-section-item + .team-section-item {
+    margin-top: 0;
+  }
+
+  .our-team-cardset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
+  }
+
+  .team-section-item {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .our-team-cardset {
+    flex-wrap: nowrap;
+  }
+}
+
 .portfolio-heading {
   font-weight: 700;
   font-size: 36px;
