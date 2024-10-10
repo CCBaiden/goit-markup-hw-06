@@ -555,32 +555,22 @@ is-open {
   text-align: center;
 }
 
-.section-two-cardset {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding-inline-start: 0;
-}
-
-.cardset-two-item {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
 .solutions-heading {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-  color: #2e2f42;
+  text-align: center;
   margin-bottom: 8px;
+  color: var(--NAVY-BLUE);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .solutions-paragraph {
-  font-size: 16px;
+  color: var(--SLATE);
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: #434455;
-  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .icon-container {
