@@ -428,14 +428,14 @@ is-open {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/section-one/dark-bg.jpg');
+    url("../images/section-one/dark-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .hero-heading {
- font-size: 36px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -489,7 +489,7 @@ is-open {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/section-one/dark-bg@2x.jpg');
+      url("../images/section-one/dark-bg@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
@@ -500,7 +500,7 @@ is-open {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url('../images/section-one/dark-bg-tablet@2x.jpg');
+        url("../images/section-one/dark-bg-tablet@2x.jpg");
     }
   }
 }
@@ -514,7 +514,7 @@ is-open {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/section-one/people-office.jpg');
+      url("../images/section-one/people-office.jpg");
   }
 
   @media (min-resolution: 192dpi) {
@@ -524,7 +524,7 @@ is-open {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url('../images/section-one/people-office@2x.jpg');
+        url("../images/section-one/people-office@2x.jpg");
     }
   }
 
@@ -533,8 +533,8 @@ is-open {
   }
 }
 
-.section-two {
-  padding: 120px 0;
+.icon-container {
+  display: none;
 }
 
 .visually-hidden {
