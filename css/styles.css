@@ -634,28 +634,18 @@ is-open {
 }
 
 .section-our-team {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-}
-
-.section-our-team .member {
-  position: relative;
-  overflow: hidden;
-}
-
-.section-our-team .member img {
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+   background-color: var(--CLOUD);
 }
 
 .team-heading {
-  font-size: 36px;
-  line-height: 1.11;
+  color: var(--NAVY-BLUE);
   text-align: center;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
+  font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team-cardset {
