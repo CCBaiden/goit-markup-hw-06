@@ -110,7 +110,6 @@ is-open {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-  }
 }
 
 .section {
@@ -455,6 +454,10 @@ is-open {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--OCEAN);
+}
+
+.section-two {
+  padding: 120px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -833,9 +836,10 @@ is-open {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+}
 
-.footer-logo-second-part {
-  color: var(--CLOUD);
+.footer-logo-second-part{
+logo-white
 }
 
 .footer-text {
@@ -955,7 +959,7 @@ is-open {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-logo-container {
+  .footer-center-conent {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1011,8 +1015,9 @@ is-open {
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-logo-container {
+  .footer-center-conent {
     justify-content: space-between;
+    
   }
 
   .footer-logo-container {
