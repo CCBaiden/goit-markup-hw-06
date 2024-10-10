@@ -834,11 +834,22 @@ is-open {
     align-items: center;
     gap: 72px 24px;
   }
+}
 
-  .portfolio-case {
-    flex-basis: calc((100% - 24px) / 2);
+.portfolio-case {
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.portfolio-case + .portfolio-case {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1158px) {
+  .our-portofilo-cardset {
+    row-gap: 48px;
   }
+}
 
-  .portfolio-case + .portfolio-case {
-    margin-top: 0;
+.portfolio-case {
+  flex-basis: calc((100% - 48px) / 3);
 }
