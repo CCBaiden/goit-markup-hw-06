@@ -825,7 +825,7 @@ is-open {
 }
 
 .footer-logo-first-part {
-    color: var(--IRIS);
+  color: var(--IRIS);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
